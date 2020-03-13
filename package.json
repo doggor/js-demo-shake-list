@@ -1,0 +1,46 @@
+{
+    "name": "js-demo-shake-list",
+    "version": "1.0.0",
+    "description": "Make choice by shaking the list.",
+    "main": "index.html",
+    "scripts": {
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html src/service-worker.js -d ./doc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Andy Ching <dogdoglization@gmail.com>",
+    "license": "MIT",
+    "pwaManifest": {
+        "name": "Shake List",
+        "shortName": "Shake List",
+        "startURL": "/",
+        "theme": "#ffffff",
+        "generateIconOptions": {
+            "baseIcon": "./src/assets/icon.png",
+            "sizes": [
+                192,
+                384,
+                512
+            ],
+            "genFavicons": true
+        }
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4",
+        "parcel-plugin-pwa-manifest": "^2.9.2",
+        "sass": "^1.26.3",
+        "sharp": "^0.25.1"
+    },
+    "dependencies": {
+        "clonedeep": "^2.0.0",
+        "lodash.clonedeep": "^4.5.0",
+        "lodash.find": "^4.6.0",
+        "lodash.findindex": "^4.6.0",
+        "lodash.shuffle": "^4.2.0",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
+        "react-redux": "^7.2.0",
+        "redux": "^4.0.5",
+        "shake.js": "^1.2.2"
+    }
+}

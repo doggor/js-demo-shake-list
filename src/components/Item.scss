@@ -1,0 +1,78 @@
+.item {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 57px;
+    padding: 16px;
+    transition: transform 0.8s cubic-bezier(0.5, -0.5, 0.5, 1.5);
+
+    &.red {
+        background-color: #ffcdd2;
+    }
+    &.orange {
+        background-color: #ffe0b2;
+    }
+    &.yellow {
+        background-color: #fff9c4;
+    }
+    &.green {
+        background-color: #c8e6c9;
+    }
+    &.cyan {
+        background-color: #b2ebf2;
+    }
+    &.blue {
+        background-color: #bbdefb;
+    }
+    &.purple {
+        background-color: #e1bee7;
+    }
+    &.pink {
+        background-color: #f8bbd0;
+    }
+    &.deep-purple {
+        background-color: #d1c4e9;
+    }
+    &.indigo {
+        background-color: #c5cae9;
+    }
+    &.light-blue {
+        background-color: #b3e5fc;
+    }
+    &.teal {
+        background-color: #b2dfdb;
+    }
+    &.light-green {
+        background-color: #dcedc8;
+    }
+    &.lime {
+        background-color: #f0f4c3;
+    }
+    &.amber {
+        background-color: #ffecb3;
+    }
+    &.deep-orange {
+        background-color: #ffccbc;
+    }
+    &.brown {
+        background-color: #d7ccc8;
+    }
+    &.blue-grey {
+        background-color: #cfd8dc;
+    }
+
+    input {
+        height: 25px;
+        width: 100%;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    & ~ .remove-item-btn:active {
+        opacity: 0.5;
+    }
+}

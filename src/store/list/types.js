@@ -1,0 +1,6 @@
+export default {
+    ADD_ITEM: "ADD_ITEM",
+    SHUFFLE_ITEMS: "SHUFFLE_ITEMS",
+    RESET_ITEMS: "RESET_ITEMS",
+    SET_ITEM_TEXT: "SET_ITEM_TEXT",
+};
