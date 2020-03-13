@@ -5,7 +5,7 @@
     "main": "index.html",
     "scripts": {
         "start": "parcel src/index.html",
-        "build": "parcel build src/index.html src/service-worker.js -d ./docs",
+        "build": "parcel build src/index.html src/service-worker.js --public-url /js-demo-shake-list -d ./docs",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Andy Ching <dogdoglization@gmail.com>",
@@ -13,7 +13,7 @@
     "pwaManifest": {
         "name": "Shake List",
         "shortName": "Shake List",
-        "startURL": "/",
+        "startURL": "/js-demo-shake-list",
         "theme": "#ffffff",
         "generateIconOptions": {
             "baseIcon": "./src/assets/icon.png",
