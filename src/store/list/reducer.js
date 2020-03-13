@@ -11,13 +11,11 @@ export default function(state = initState(), action) {
             const position = state.length ? Math.max(...state.map(item => item.position)) + 1 : 0;
             return [...state, { id, position, text: "" }];
         case types.SHUFFLE_ITEMS:
-            const newOrders = shuffle(state);
-            return state
-                .filter(({ text }) => !!text)
-                .map((item, index) => ({
-                    ...item,
-                    position: newOrders[index].position,
-                }));
+            const newOrders = shuffle(state.filter(({ text }) => !!text));
+            return state.map((item, index) => ({
+                ...item,
+                position: newOrders[index].position,
+            }));
         case types.RESET_ITEMS:
             return initState();
         case types.SET_ITEM_TEXT:
