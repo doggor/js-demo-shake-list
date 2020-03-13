@@ -1,4 +1,4 @@
-# CHOICES
+# SHAKE LIST
 
 Simple tool for making choice to you.
 
