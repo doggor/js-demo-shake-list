@@ -124,5 +124,5 @@ var t=arguments[3],r=200,n="Expected a function",e="__lodash_hash_undefined__",o
 
 },{"./assets/bg.png":[["bg.4d4d3500.png","rTOg"],"rTOg"]}],"Focm":[function(require,module,exports) {
 "use strict";var e=n(require("react")),r=n(require("react-dom")),t=require("react-redux"),a=n(require("./store")),d=n(require("./components/App"));function n(e){return e&&e.__esModule?e:{default:e}}require("./index.scss"),r.default.render(e.default.createElement(t.Provider,{store:a.default},e.default.createElement(d.default,null)),document.getElementById("app")),"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/service-worker.js")});
-},{"react":"n8MK","react-dom":"NKHc","react-redux":"jYIL","./store":"rMii","./components/App":"FbLG","./index.scss":"eHzx","/Users/andy/Desktop/projects/js-demo-choices/src/service-worker.js":[["service-worker.js","AaGI"],"service-worker.js.map","AaGI"]}]},{},["Focm"], null)
+},{"react":"n8MK","react-dom":"NKHc","react-redux":"jYIL","./store":"rMii","./components/App":"FbLG","./index.scss":"eHzx","/Users/andy/Desktop/projects/js-demo-shake-list/src/service-worker.js":[["service-worker.js","AaGI"],"service-worker.js.map","AaGI"]}]},{},["Focm"], null)
 //# sourceMappingURL=/src.e2e14e99.js.map
